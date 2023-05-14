@@ -30,4 +30,6 @@ cd Secrets_Management
 ### Confirm Secrets Being Used:
 <pre>
 sudo datadog-agent secret</pre>
-Add, if any.
+
+## Secrets Managaement Documentation
+  <li><link>https://docs.datadoghq.com/agent/guide/secrets-management/?tab=linux#pagetitle</link></li>
