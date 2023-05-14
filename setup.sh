@@ -33,7 +33,8 @@ sudo chmod 700 /etc/datadog-agent/mysql_password.py
 
 #Set mysql Integration information
 sudo cp /etc/datadog-agent/conf.d/mysql.d/conf.yaml.example /etc/datadog-agent/conf.d/mysql.d/conf.yaml
-sudo sed -i.yaml "s/    password: <PASSWORD>/    password: ENC[password]/1" /etc/datadog-agent/conf.d/mysql.d/conf.yaml
+sudo sed -i.yaml "s/    username: datadog/    username: ENC[mysql_username]/1" /etc/datadog-agent/conf.d/mysql.d/conf.yaml
+sudo sed -i.yaml "s/    password: <PASSWORD>/    password: ENC[mysql_password]/1" /etc/datadog-agent/conf.d/mysql.d/conf.yaml
 sudo sed -i.yaml "s/    # dbm: false:/    dbm: true/1" /etc/datadog-agent/conf.d/mysql.d/conf.yaml
 sudo sed -i.yaml "s|# secret_backend_command: <COMMAND_PATH>|secret_backend_command: /etc/datadog-agent/mysql_password.py|1" /etc/datadog-agent/datadog.yaml
 
