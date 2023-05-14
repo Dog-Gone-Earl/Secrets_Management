@@ -8,7 +8,8 @@
 <li>Datadog Agent will be installed on Sandbox</li>
 <li>Agent will collect <code>username/password</code> from Python executable for Mysql Integration <code>YAML</code> file</li>
 
-<pic of python code>
+![image](https://github.com/Dog-Gone-Earl/Secrets_Management/assets/107069502/b6c0f7c6-d909-43cb-82db-fd1ef7dcf35e)
+
 
 <pic of Mysql yaml config>
   
