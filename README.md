@@ -31,7 +31,7 @@ git clone https://github.com/Dog-Gone-Earl/Secrets_Management.git </pre>
 
   
 ## If you receive a permissions error:
-<pre>chmod 770 run.sh</pre>
+<pre>chmod 770 run.sh && ./run.sh up</pre>
 
 ## SSH into Sandbox
 <pre>./run.sh ssh</pre>
