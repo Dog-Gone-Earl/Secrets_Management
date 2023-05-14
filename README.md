@@ -29,8 +29,10 @@ cd Secrets_Management
 </pre>
   
 ## If you receive a permissions error:
-  <pre>chmod 770 Secrets_Management/run.sh</pre>
-./run.sh ssh
+<pre>chmod 770 Secrets_Management/run.sh</pre>
+
+## SSH into Sandbox
+<pre>./run.sh ssh</pre>
   
 ### Confirm Secrets Being Used:
 <pre>
