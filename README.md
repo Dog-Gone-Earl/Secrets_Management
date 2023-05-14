@@ -1,11 +1,13 @@
 # Dog-Gone-Earl/Secrets_Management
 
 ## What this VM does
-Datadog Mysql Connection with Secrets Management
+### Datadog Mysql Connection with Secrets Management
 
-Add a description of what your VM is for.
-Live example of using Secrets Management
-DD Agent will will username/password from Python executable 
+<li>Live example of using Secrets Management with the Agent</li>
+<li>Mysql Database will be created</li>
+<li>Datadog Agent will be installed on Sandbox</li>
+<li>Agent will collect <code>username/password</code> from Python executable for Mysql Integration <code>YAML</code> file</li>
+
 <pic of python code>
 
 <pic of Mysql yaml config>
@@ -18,13 +20,14 @@ DD Agent will will username/password from Python executable
 
 ## Special Instructions
 
-run command:
-  git clone <link>
-  cd Secrets_Management
-  ./run.sh up
-  ./run.sh ssh
+### Run Command:
+<pre>
+git clone <link> 
+cd Secrets_Management
+./run.sh up
+./run.sh ssh</pre>
   
-
-Confirm Running:
-  sudo datadog-agent secret
+### Confirm Secrets Being Used:
+<pre>
+sudo datadog-agent secret</pre>
 Add, if any.
