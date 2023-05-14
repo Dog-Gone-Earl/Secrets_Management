@@ -25,7 +25,11 @@
 git clone https://github.com/Dog-Gone-Earl/Secrets_Management.git 
 cd Secrets_Management
 ./run.sh up
-./run.sh ssh</pre>
+</pre>
+  
+## If you receive a permissions error:
+  <pre>chmod 770 Secrets_Management/run.sh</pre>
+./run.sh ssh
   
 ### Confirm Secrets Being Used:
 <pre>
