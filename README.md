@@ -22,7 +22,7 @@
 
 ### Run Command:
 <pre>
-git clone <link> 
+git clone https://github.com/Dog-Gone-Earl/Secrets_Management.git 
 cd Secrets_Management
 ./run.sh up
 ./run.sh ssh</pre>
