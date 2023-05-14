@@ -5,7 +5,7 @@
 import json
 import sys
 
-secrets={"username": {"value": "datadog", "error": None}, "password": {"value": "Datadog2023", "error": None}}
+secrets={"mysql_username": {"value": "datadog", "error": None}, "mysql_password": {"value": "Datadog2023", "error": None}}
 
 sys.stdout.write(json.dumps(secrets))
 
