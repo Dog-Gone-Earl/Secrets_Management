@@ -6,7 +6,7 @@
 <li>Live example of using Secrets Management with the Agent</li>
 <li>Mysql Database will be created</li>
 <li>Datadog Agent will be installed on Sandbox</li>
-<li>Agent will collect <code>username/password</code> from Python executable <code>.py</code> file for Mysql Integration <code>YAML</code> file</li>
+<li>Agent will collect <code>username/password</code> from Python executable <code>.py</code> file for Mysql Integration</li>
 
 ![image](https://github.com/Dog-Gone-Earl/Secrets_Management/assets/107069502/9da16fab-6c3e-4869-a414-48779a6ee3a2)
 
